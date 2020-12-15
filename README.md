@@ -14,7 +14,7 @@ to start/stop being AFK.
 
 ### Raw API
 
-![Raw API Demo GIF](https://afk.tvanderb.dev/media/gif/Raw%20API%20Demo.gif)
+<img src="https://afk.tvanderb.dev/media/gif/Raw%20API%20Demo.gif?raw=true">
 
 ### iOS Siri Shortcut
 
