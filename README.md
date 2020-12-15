@@ -12,9 +12,9 @@ to start/stop being AFK.
 
 ## Demos
 
-### [Raw API](https://afk.tvanderb.dev/media/mov/Raw%20API%20Demo.mov)
-### [iOS Siri Shortcut](https://afk.tvanderb.dev/media/mov/iOS%20Demo.mov)
-### [Apple Watch Siri](https://afk.tvanderb.dev/media/mov/Siri%20Watch%20Demo.mov)
+#### [Raw API](https://afk.tvanderb.dev/media/mov/Raw%20API%20Demo.mov)
+#### [iOS Siri Shortcut](https://afk.tvanderb.dev/media/mov/iOS%20Demo.mov)
+#### [Apple Watch Siri](https://afk.tvanderb.dev/media/mov/Siri%20Watch%20Demo.mov)
 
 <br />
 <br />
