@@ -1,11 +1,10 @@
+<img src="https://afk.tvanderb.dev/media/Screenshot.jpeg" align="right"
+     alt="Discord AFK RPC screenshot." width="212">
+
 # AFK-RPC  
 
 AFK RPC is a simple program to show when your unavailable on Discord. It uses a restful API  
 to start/stop being AFK. 
-
-<p align="center">
-  <img src="https://afk.tvanderb.dev/media/Screenshot.jpeg" alt="Size Limit CLI" width="256">
-</p>
 
 
 <br />
