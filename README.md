@@ -24,20 +24,20 @@ In order to have the best experience with AFK RPC you need to have it running on
 that is connected to the Internet, has Discord open, and is logged into your account on Discord. I  
 also recommend that you have the device port-forwarded so that you can use it from anywhere.
 
-#### **1.**
+### 1.
 
 > Download the latest release Jar.
 
-#### **2.**
+### 2.
 
 > Move it to wherever you wish.
 
-#### **3.**
+### 3.
 
 > Create a new application in [Discord](https://discord.com/developers/applications) to use for the rich  
 > presence and copy the client ID.
 
-#### **4.**
+### 4.
 
 > Either setup a script to run it automatically on startup, or run:
 > ```
