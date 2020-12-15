@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import javax.validation.constraints.NotNull;
+import java.util.Collections;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -12,9 +13,11 @@ import java.util.concurrent.atomic.AtomicLong;
 @EnableWebMvc
 public class SpringApp {
 
-    private SpringApplication app;
 
+    private final Properties properties = new Properties();
     private final AtomicLong idCounter = new AtomicLong();
+
+    private SpringApplication app;
 
     public SpringApp() {
         createApp(true);
@@ -27,7 +30,6 @@ public class SpringApp {
     private void createApp(boolean log) {
         app = new SpringApplication(getClass());
 
-        Properties properties = new Properties();
         if (!log) {
             properties.setProperty("spring.main.banner-mode", "off");
             properties.setProperty("logging.pattern.console", "");
@@ -36,9 +38,12 @@ public class SpringApp {
         app.setDefaultProperties(properties);
     }
 
-    public void start() {
+    public void start(int port) {
+        properties.setProperty("server.port", String.valueOf(port));
+        app.setDefaultProperties(properties);
+
         app.run();
-        System.out.println("API started!");
+        System.out.println("INFO: API started!");
     }
 
     public long getNextId() {

@@ -5,6 +5,15 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.8.RELEASE'
 }
 
+jar {
+    from {
+        configurations
+                .compile
+                .findAll { !it.name.endsWith("pom")}
+                .collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
 group 'dev.tvanderb'
 version 'v1.0-ALPHA'
 
