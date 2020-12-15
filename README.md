@@ -6,7 +6,6 @@
 AFK RPC is a simple program to show when your unavailable on Discord. It uses a restful API  
 to start/stop being AFK. 
 
-
 <br />
 <br />
 
@@ -16,7 +15,6 @@ to start/stop being AFK.
 #### [iOS Siri Shortcut](https://afk.tvanderb.dev/media/mov/iOS%20Demo.mov)
 #### [Apple Watch Siri](https://afk.tvanderb.dev/media/mov/Siri%20Watch%20Demo.mov)
 
-<br />
 <br />
 <br />
 
