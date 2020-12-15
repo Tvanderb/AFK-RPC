@@ -3,7 +3,7 @@
 
 # AFK-RPC  
 
-AFK RPC is a simple program to show when your unavailable on Discord. It uses a restful API  
+AFK RPC is a simple program to show when you're unavailable on Discord. It uses a restful API  
 to start/stop being AFK. Feel free to address any concerns or requests in the [issues tab](https://github.com/Tvanderb/AFK-RPC/issues).
 
 <br />
