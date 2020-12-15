@@ -1,10 +1,9 @@
-package com.ts_mc.smcb.main.api.responses.error;
+package dev.tvanderb.afk_rpc.api.responses.error;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ts_mc.smcb.main.api.responses.DefaultResponse;
+import dev.tvanderb.afk_rpc.api.responses.DefaultResponse;
 import org.jetbrains.annotations.NotNull;
 
-import javax.xml.bind.annotation.XmlRootElement;
 import java.util.UUID;
 
 public class ErrorResponse extends DefaultResponse {

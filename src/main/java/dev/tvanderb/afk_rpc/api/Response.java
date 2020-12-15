@@ -1,8 +1,8 @@
-package com.ts_mc.smcb.main.api;
+package dev.tvanderb.afk_rpc.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ts_mc.smcb.main.api.responses.ArrayResponse;
-import com.ts_mc.smcb.main.api.responses.DefaultResponse;
+import dev.tvanderb.afk_rpc.api.responses.ArrayResponse;
+import dev.tvanderb.afk_rpc.api.responses.DefaultResponse;
 import org.jetbrains.annotations.NotNull;
 
 import javax.xml.bind.annotation.XmlElement;

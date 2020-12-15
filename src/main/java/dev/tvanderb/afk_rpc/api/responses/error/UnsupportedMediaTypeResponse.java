@@ -1,7 +1,6 @@
-package com.ts_mc.smcb.main.api.responses.error;
+package dev.tvanderb.afk_rpc.api.responses.error;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jdk.jfr.Name;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.http.MediaType;
 

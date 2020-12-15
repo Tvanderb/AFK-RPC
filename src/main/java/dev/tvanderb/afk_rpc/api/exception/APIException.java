@@ -1,6 +1,5 @@
-package com.ts_mc.smcb.main.api.exception;
+package dev.tvanderb.afk_rpc.api.exception;
 
-import com.ts_mc.smcb.main.Utils;
 import org.jetbrains.annotations.NotNull;
 
 import javax.servlet.http.HttpServletRequest;
@@ -18,11 +17,6 @@ public class APIException extends Exception {
     @NotNull
     public HttpServletRequest getRequest() {
         return request;
-    }
-
-    @NotNull
-    public String getStringRequest() {
-        return Utils.Request.getAsRequestLog(request);
     }
 
 }

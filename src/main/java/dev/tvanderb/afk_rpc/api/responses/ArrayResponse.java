@@ -1,4 +1,4 @@
-package com.ts_mc.smcb.main.api.responses;
+package dev.tvanderb.afk_rpc.api.responses;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.jetbrains.annotations.NotNull;

@@ -1,4 +1,4 @@
-package com.ts_mc.smcb.main.api.exception;
+package dev.tvanderb.afk_rpc.api.exception;
 
 import org.jetbrains.annotations.NotNull;
 
