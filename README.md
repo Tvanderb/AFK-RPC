@@ -61,7 +61,7 @@ Go AFK. This end point requires two parameters, both transported via url-encoded
 
 | Name   | Expected Value                     |
 |--------|------------------------------------|
-| unit   | s(econd), m(inute), h(our), (day)  |
+| unit   | s(econd), m(inute), h(our), d(ay)  |
 | amount | The amount of units as a double.   |
 
 For example ``http://localhost:3000/go-afk?unit=m&amount=1.5`` will make you AFK for one and a half minutes.  
