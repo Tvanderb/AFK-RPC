@@ -64,7 +64,7 @@ Go AFK. This end point requires two parameters, both transported via url-encoded
 | unit   | s(econd), m(inute), h(our), (day)  |
 | amount | The amount of units as a double.   |
 
-For example ``http://localhost:3000/go-afk?unit=m&amount=1.5`` will make me AFK for one and a half minutes.  
+For example ``http://localhost:3000/go-afk?unit=m&amount=1.5`` will make you AFK for one and a half minutes.  
 
 ###### Example JSON Response:
 ```json
