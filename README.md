@@ -1,19 +1,7 @@
-<img src="https://afk.tvanderb.dev/media/Screenshot.jpeg" align="right"
-     alt="Discord AFK RPC screenshot." width="212">
-
 # AFK-RPC  
 
 AFK RPC is a simple program to show when you're unavailable on Discord. It uses a restful API  
 to start/stop being AFK. Feel free to address any concerns or requests in the [issues tab](https://github.com/Tvanderb/AFK-RPC/issues).
-
-<br />
-<br />
-
-## Demos
-
-#### [Raw API](https://afk.tvanderb.dev/media/mov/Raw%20API%20Demo.mov)
-#### [iOS Siri Shortcut](https://afk.tvanderb.dev/media/mov/iOS%20Demo.mov)
-#### [Apple Watch Siri](https://afk.tvanderb.dev/media/mov/Siri%20Watch%20Demo.mov)
 
 <br />
 <br />
