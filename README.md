@@ -39,7 +39,7 @@ you show up as AFK for an hour. To turn this off go to ``http://localhost:portyo
 
 ## API Documentation
 
-In these examples I will use the host ``localhost:3000``. Just remember, change this to whatever hostname is right for your setup.
+In these examples I will use the host ``localhost:3000``. Just remember, change this to whatever hostname is right for your setup. (by the way, these requests are all get to allow integration with things like Siri Shortcuts)
 
 <br />
 
