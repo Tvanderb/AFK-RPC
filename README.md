@@ -45,7 +45,7 @@ In these examples I will use the host ``localhost:3000``. Just remember, change 
 
 ##### GET ``/go-afk``
 
-Go AFK. This end point requires two parameters, both transported via url-encoded.
+Go AFK. This end point requires two parameters, both transported via the request query.
 
 | Name   | Expected Value                     |
 |--------|------------------------------------|
